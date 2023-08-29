@@ -126,12 +126,32 @@ header {
     align-items: center;
     padding: 100px;
 }
-.service-type{
+
+.service-type {
     text-align: center;
 }
-.service-text{
+
+.service-text {
     color: rgba(39, 39, 39, 0.80);
     font-size: 24px;
     font-weight: 600;
     margin-top: 20px;
+}
+
+/* HOT DEAL AREA STYLE */
+.hdp {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 120px;
+    padding: 100px;
+}
+
+.hot-deal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading-text {
+    text-align: center;
 }
